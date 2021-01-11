@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+//    重置浏览器样式
+@import './reset.scss';
+
+.main_background{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
